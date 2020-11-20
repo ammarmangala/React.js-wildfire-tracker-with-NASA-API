@@ -1,11 +1,9 @@
-
-
 function App() {
-  return (
-    <div className="App">
-
-    </div>
-  );
+    return (
+        <div>
+            <h1>Welcome to the Wildfire Application</h1>
+        </div>
+    );
 }
 
 export default App;
