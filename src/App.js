@@ -16,12 +16,11 @@ function App() {
         }
 
         fetchEvents()
-        console.log(events);
     }, [])
 
     return (
         <div>
-            <Map />
+            { !loading ? <Map eventData={eventData} /> : <h1>Loading</h1>}
         </div>
     );
 }
